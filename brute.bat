@@ -1,3 +1,22 @@
+@echo off
+
+REM start /b powershell -command "&{$w=(get-host).ui.rawui;$w.buffersize=@{width=350;height=999};$w.windowsize=@{width=350;height=55};}"
+
+echo.
+COLOR 4
+set /p pass="PLEASE ENTER THE PASSWORD GIVEN TO YOU PRIVATELY BY THE AUTHOR >> "
+
+if not "%pass%"=="AZGFRT" (
+  cls
+  echo WRONG PASSWORD!
+  timeout /t 1 >nul
+  goto :eof
+)
+
+:menu
+title SMB Bruteforce
+COLOR A
+cls
 echo.
 echo Welcome to Bruteforce!
 echo.
