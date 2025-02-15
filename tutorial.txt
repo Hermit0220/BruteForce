@@ -1,0 +1,22 @@
+Welcome to the SMB Brute-Force Tutorial
+
+This guide provides a comprehensive walkthrough for effectively using the brute-force password tool included in this package.
+
+Getting Started:
+
+Prerequisites: Ensure you have a valid IP address and username for the target system.
+Password List: The tool accepts any properly formatted text file (.txt) containing potential passwords.
+Using the Tool:
+
+Follow the on-screen prompts to input the necessary information. The tool will systematically attempt to log in using each password from your list.
+Keep an eye on the output for successful logins or any errors encountered during the process.
+Specifying a Password List:
+
+To use a password list, simply enter the filename with its extension (e.g., passwords.txt).
+If the file is stored outside of this folder, specify the full path. For instance: C:\Users\YOUR_USERNAME\Desktop\LISTNAME.txt.
+Creating a Custom Password List:
+
+Create a .txt file in this directory, listing potential passwords line by line. Avoid empty lines to ensure accuracy.
+This tutorial aims to help you navigate the tool efficiently and maximize the effectiveness of your brute-force operations.
+
+THIS IS STRICTLY FOR EDUCATIONAL PURPOSES ONLY, AUTHOR DOES NOT FALL RESPONSIBLE FOR ANY MALICIOUS ACTIONS PERFORMED BY ANY INDIVIDUAL !!
